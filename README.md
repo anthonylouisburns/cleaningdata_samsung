@@ -22,7 +22,7 @@ will create a list of four varaibles
 
 summary[[1]] - is the training and test data from "UCI HAR Dataset" merged together, it's first column is an integer corresponding to a subject in the experiment and the second column is an activityId corresponding to the activity being performed. The other columns are measuremnts taken by the movement tracking device, the names for these columns where extracted from "UCI HAR Dataset/features.txt" - this completes step #1 and #4 of the assignment
 
-summary[[2]] - is the smae dataset, but only with the mean and std columns - **this completes step #2 of the assignment**
+summary[[2]] - is the smae dataset, but only with the mean and std cfileolumns - **this completes step #2 of the assignment**
 
 summary[[3]] - adds a column with descriptive activity names taken from "UCI HAR Dataset/activity_labels.txt" to the data frame summary[[2]] - **this completes #3 of the assignment**
 
@@ -30,3 +30,5 @@ summary[[4]] - is a summary of summary[[3]] each row is the average of all the o
 
 
 this will also write summary[[4]] to a file named "step_5_answer.txt" the format for that fileis described in CodeBook.md file
+
+I have also included the created file step_5_answer.txt in the repository
